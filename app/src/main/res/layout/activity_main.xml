@@ -49,4 +49,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         tools:text="No account? SignUp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="390dp"
+        android:background="@color/purple_700"
+        android:text="Button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 </android.support.constraint.ConstraintLayout>
