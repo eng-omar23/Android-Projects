@@ -1,0 +1,54 @@
+==================Quick Notes for Android==============================
+
+:Layouts are the building blocks that group together the other UI elements.
+
+Layers are useful because they let you add components to an image and work on them one at a time, 
+without permanently changing your original image. For each layer, you can adjust color and brightness,
+apply special effects, reposition layer content, specify opacity and blending values, and so on. 
+You can also rearrange the stacking order, link layers to work on them simultaneously, and create web animations with layers.
+
+Layers are like stacked, transparent sheets of glass on which you can paint images.
+ You can see through the transparent areas of a layer to the layers below. You can work on each layer independently,
+ experimenting to create the effect you want. Each layer remains independent until you combine (merge) the layers.
+ The bottommost layer in the Layers panel, the Background layer, is always locked (protected), 
+meaning you cannot change its stacking order, blending mode, or opacity (unless you convert it into a regular layer).
+Fill layers
+Contain a color gradient, solid color, or pattern.
+
+Adjustment layers
+Enable you to fine-tune color, brightness, 
+and saturation without making permanent changes to your image (until you flatten, or collapse, the adjustment layer).
+
+Type layers and shape layers
+Let you create vector-based text and shapes.
+ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
+
+ALTER TABLE MEMBERS RENAME COLUMN ID TO SCHEDULE_ID
+
+
+Live SEARCH
+ID NOT UNIWUE
+
+<script>
+function showResult(str) {
+  if (str.length==0) {
+    document.getElementById("livesearch").innerHTML="";
+    document.getElementById("livesearch").style.border="0px";
+    return;
+  }
+  var xmlhttp=new XMLHttpRequest();
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("livesearch").innerHTML=this.responseText;
+      document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+    }
+  }
+  xmlhttp.open("GET","spro.sjp?shiftname="+str,true);
+  xmlhttp.send();
+}
+</script>
+
+
+
+scroll view 
+text view
